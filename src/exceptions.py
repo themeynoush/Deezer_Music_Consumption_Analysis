@@ -26,5 +26,5 @@ if __name__ == "__main__":
     try:
         a = 1/0
     except Exception as e:
-        logging.info("Taghsim bar sefr yani chiii!!")
+        logging.info("No WAY! Stop it! Stop dividing by Zero!!")
         raise CustomException(e, sys)
