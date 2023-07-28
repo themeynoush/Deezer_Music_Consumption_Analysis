@@ -14,5 +14,6 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+# Testing the code
 if __name__ == "__main__":
     logging.info("DEEZER SUPPORT TEAM! Logging Has Started!")
