@@ -1,4 +1,4 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages, setup
 from typing import List
 
 
@@ -14,6 +14,7 @@ def get_requirements(file_path: str) -> List[str]:
                 requirements.append(line)
 
     return requirements
+
 
 setup(
     name='Deezer_Music_Consumption_Analysis',
